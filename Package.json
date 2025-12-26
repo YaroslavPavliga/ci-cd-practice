@@ -4,7 +4,7 @@
   "private": true,
   "description": "Practice CI/CD pipeline with GitHub Actions",
   "scripts": {
-    "test": "echo \"tests passed\"",
-    "build": "mkdir -p dist && echo \"build artifact\" > dist/app.txt"
-  } 
+    "test": "echo \"Running tests\" && exit 0",
+    "build": "echo \"Building project...\" && mkdir -p dist && echo 'build ok' > dist/index.html"
+  }
 }
