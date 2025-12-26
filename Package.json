@@ -8,3 +8,4 @@
     "build": "echo \"Building project...\" && mkdir -p dist && echo 'build ok' > dist/index.html"
   }
 }
+ 
